@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -129,4 +129,13 @@
             </div>
         </div>
     </body>
-</html>
+</html> --}}
+
+<h1>INI HALAMAN HOME DENGAN PATH "/"</h1>
+
+<br> BERIKUT HALAMAN LAINNYA
+<ol>
+    <li><a href="{{ route('services') }}">SERVICES</a></li>
+    <li><a href="{{ route('testimonials') }}">TESTIMONIALS</a></li>
+    <li><a href="{{ route('about') }}">ABOUT</a></li>
+</ol>
