@@ -1,5 +1,4 @@
-@include('layouts.header')
-@section('title', 'Services')
+@include('layouts.header', ['title' => 'Services'])
 <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->

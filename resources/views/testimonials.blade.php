@@ -1,5 +1,4 @@
-@include('layouts.header')
-@section('title', 'Testimonials')
+@include('layouts.header', ['title' => 'Testimonials'])
 
 <main id="main">
 

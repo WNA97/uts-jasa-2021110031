@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> @yield('title', 'IT Solutions') | PITS</title>
+  <title> {{$title}} | PITS</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 

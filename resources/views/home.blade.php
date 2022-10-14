@@ -1,5 +1,4 @@
-@include('layouts.header')
-@section('title', 'Home')
+@include('layouts.header', ['title' => 'Home'])
 
 
 <!-- ======= Hero Section ======= -->
