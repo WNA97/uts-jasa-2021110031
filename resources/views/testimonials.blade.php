@@ -22,7 +22,6 @@
       <div class="container" data-aos="fade-up">
 
           <div class="section-title">
-              <h2>Testimonials</h2>
               <p>Here are some testimonials from our clients</p>
           </div>
 
