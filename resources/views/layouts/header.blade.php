@@ -51,10 +51,10 @@
   
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto {{ Route::is('home') ? 'active' : "" }}" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto {{ Route::is('services') ? 'active' : "" }}" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto {{ Route::is('testimonials') ? 'active' : "" }}" href="#testimonials">Testimonials</a></li>
-            <li><a class="nav-link scrollto {{ Route::is('about') ? 'active' : "" }}" href="#about">About</a></li>
+            <li><a class="nav-link scrollto {{ Route::is('home') ? 'active' : "" }}" href="{{ Route::is('home') ? '#hero' : "/" }}">Home</a></li>
+            <li><a class="nav-link scrollto {{ Route::is('services') ? 'active' : "" }}" href="{{ Route::is('home') ? '#services' : "/services" }}">Services</a></li>
+            <li><a class="nav-link scrollto {{ Route::is('testimonials') ? 'active' : "" }}" href="{{ Route::is('home') ? '#testimonials' : "/testimonials" }}">Testimonials</a></li>
+            <li><a class="nav-link scrollto {{ Route::is('about') ? 'active' : "" }}" href="{{ Route::is('home') ? '#about' : "/about" }}">About</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
