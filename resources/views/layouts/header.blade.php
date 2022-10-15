@@ -9,6 +9,9 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -42,9 +45,9 @@
     <header id="header" class="fixed-top {{ Route::is('home') ? '' : "header-inner-pages" }} ">
       <div class="container d-flex align-items-center">
   
-        <h1 class="logo me-auto"><a href="{{ route('home') }}">PITS</a></h1>
+        {{-- <h1 class="logo me-auto"><a href="{{ route('home') }}">PITS</a></h1> --}}
         <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <a href="{{ route('home') }}" class="logo me-auto"><img src="img/logo-header.png" alt="" class="img-fluid"></a>
   
         <nav id="navbar" class="navbar">
           <ul>
